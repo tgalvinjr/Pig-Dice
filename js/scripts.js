@@ -23,16 +23,16 @@ $().ready(function () {
         //Output random number if it's not one
         else {
             diceRoll1 = diceRoll1 + randomNum;
-            $(".rollOutput1").text(randomNum);
-            $(".turnOutput1").text(diceRoll1);
+            $(".rollOutput1").text("Dice Roll: " + randomNum);
+            $(".turnOutput1").text("Turn Total:" + diceRoll1);
         }
     });
     $("#end1").click(function () {
         totalScore1 = totalScore1 + diceRoll1
-        $(".scoreOutput1").text(totalScore1);
+        $(".scoreOutput1").text("Total Score: " + totalScore1);
         //Reset diceRoll1 to 0
         diceRoll1 = 0
-        $(".turnOutput1").text(diceRoll1);
+        $(".turnOutput1").text("Turn Total: " + diceRoll1);
         $("#roll1").hide()
         $("#end1").hide()
         $("#roll2").show()
@@ -58,16 +58,16 @@ $().ready(function () {
         //Output random number if it's not 1
         else {
             diceRoll2 = diceRoll2 + randomNum2;
-            $(".rollOutput2").text(randomNum2);
-            $(".turnOutput2").text(diceRoll2);
+            $(".rollOutput2").text("Dice Roll: " + randomNum2);
+            $(".turnOutput2").text("Turn Total: " + diceRoll2);
         }
     });
     $("#end2").click(function () {
         totalScore2 = totalScore2 + diceRoll2
-        $(".scoreOutput2").text(totalScore2);
+        $(".scoreOutput2").text("Total Score: " + totalScore2);
         //Reset diceRoll1 to 0
         diceRoll2 = 0
-        $(".turnOutput2").text(diceRoll2);
+        $(".turnOutput2").text("Turn Total: " + diceRoll2);
         $("#roll2").hide()
         $("#end2").hide()
         $("#roll1").show()
