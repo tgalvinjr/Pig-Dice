@@ -5,16 +5,13 @@ A game played by 2 players who roll a six-sided die and accumulate points. The w
 ## Functionality
 
 ## BDD
-| BEHAVIOUR                            | INPUT                              | OUTPUT                   |
-|--------------------------------------|------------------------------------|--------------------------|
-|Player1 clicks Roll Dice button       |Click ROLL button                   |Dice rolls and a random   |
-|                                      |                                    |   number is generated    |
-|--------------------------------------|------------------------------------|--------------------------|
-|If Player1 rolls any number other than| Roll Dice = 3                      | Round Total = 3          |
-| 1, that number is added to roundtotal|                                    |                          |
-|--------------------------------------|------------------------------------|--------------------------|
-
-# Github Pages
+| BEHAVIOUR                            | INPUT EXAMPLE                           | OUTPUT EXAMPLES       |
+|--------------------------------------|:------------------------------------:|--------------------------|
+|Player1 clicks Roll Dice button |      Click Roll Dice button  |                 Dice rolls and a random  number is generated|
+|If Player1 rolls any number other than 1, that number is added to roundtotal | Roll Dice = 3 |            Round Total = 3 |
+|If Player1 rolls a 1, no score is added to round total, and player1 turn is terminated | Roll Dice = 1 | Round total = 0 and Player 2 begins their turn |
+|if player1 rolls any number other than 1, they can save the score, which automatically ends their turn | Roll Dice = 3 | Total Score = 3 |
+| When a player's total score reaches 100 or more, the game ends and a winner alert pops up |Player1 total score = 100 | Winner alert pops up |
 The UI templates can be tested on [github pages](https://tgalvinjr.github.io/Pig-Dice/)
 ## Setup instructions
 1. Clone the repository 
