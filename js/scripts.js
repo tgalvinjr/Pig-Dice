@@ -7,7 +7,7 @@ $().ready(function () {
     //Hide player 2 buttons, Player 1 will be hidden when player 2 turn ends
     $("#roll2").hide()
     $("#end2").hide()
-    //button click event
+    //button click event for player 1
     $("#roll1").click(function () {
         //generate random number between 1 and 6
         event.preventDefault();
@@ -17,6 +17,7 @@ $().ready(function () {
             alert("You have rolled 1. Your turn ends!");
             $("#roll1").hide()
             $("#end1").hide()
+            
         }
         //Output random number if it's not one
         else {
@@ -33,5 +34,32 @@ $().ready(function () {
         $(".turnOutput1").text(diceRoll1);
         $("#roll1").hide()
         $("#end1").hide()
+    });
+     //button click event for player 2
+     $("#roll2").click(function () {
+        //generate random number between 1 and 6
+        event.preventDefault();
+        var randomNum2 = Math.floor(Math.random() * 6) + 1;
+        //check if random number generated == 1
+        if (randomNum2 === 1) {
+            alert("You have rolled 1. Your turn ends!");
+            $("#roll2").hide()
+            $("#end2").hide()
+        }
+        //Output random number if it's not 1
+        else {
+            diceRoll2 = diceRoll2 + randomNum2;
+            $(".rollOutput2").text(randomNum2);
+            $(".turnOutput2").text(diceRoll2);
+        }
+    });
+    $("#end2").click(function () {
+        totalScore2 = totalScore2 + diceRoll2
+        $(".scoreOutput2").text(totalScore2);
+        //Reset diceRoll1 to 0
+        diceRoll2 = 0
+        $(".turnOutput2").text(diceRoll2);
+        $("#roll2").hide()
+        $("#end2").hide()
     });
 })
