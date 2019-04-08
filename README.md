@@ -2,7 +2,14 @@
 ## Description
 A game played by 2 players who roll a six-sided die and accumulate points. The winner of the game is the player who is first to accumulate 100 points.
 
-## Functionality
+## Features
+1. As a user, I want to roll the dice when it's my turn to play in the game.
+2. As a user, I want to see the score I get for each roll of the dice I make in the game.
+3. As a user, I want to see my cumulative score for each round I play in the game. For example, if I roll the scores 2-6-3 consecutively, I should see my end score as 11.
+4. As a user, I want the option to hold my score when I'm satisfied with the points I've gained in a round of playing. The game should, therefore, add my held score to my most recent cumulative score.
+5. As a user, I want to be alerted when my dice rolls on number 1. This will help me know that I can't roll the dice until the alternate player takes their round.
+6. As a user, I need a way to know which player has won the game, which means they have scored 100 points before the alternate player.
+
 
 ## BDD
 | BEHAVIOUR                            | INPUT EXAMPLE                           | OUTPUT EXAMPLES       |
