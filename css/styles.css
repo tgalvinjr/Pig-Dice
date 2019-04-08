@@ -57,4 +57,11 @@ body{
 .btn{
     color: black;
 }
+@media screen and (max-width:991px) {
+    #logotext{
+      margin-top: 20px !important;
+      width: 100% !important;
+    }
+  
+
 }
