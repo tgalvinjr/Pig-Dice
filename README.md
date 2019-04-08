@@ -30,6 +30,9 @@ The UI templates can be tested on [github pages](https://tgalvinjr.github.io/Pig
 ## Technologies 
 `HTML5`, `CSS3`, `JavaScript`, `Bootstrap`, `JQuery`
 
+## Known Bugs
+The game does not terminate and refresh scores after a winner is declared. Players have to manually refresh the page
+
 ### Author(s) information
 Alvin Michoma
 [Github](https://github.com/tgalvinjr)
@@ -39,5 +42,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 - Hat tip to anyone who unblocked me in class
-- Special thanks to Moringa TMs Peter and Newton for the guidance
+- Special thanks to Moringa TMs Peter, Edgar and Newton for the guidance
 
