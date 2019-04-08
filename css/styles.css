@@ -1,0 +1,60 @@
+img {
+    width: 100px;
+    margin-left: 84.5%;
+}
+
+#logo {
+    background-color:rgb(107, 27, 107);
+    border-radius: 10px;
+}
+
+#logotext {
+    color: pink;
+    font-family: Dokdo;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#pigh1 {
+    background-color:rgb(107, 27, 107);
+    padding: 0;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+#diceh1 {
+    background-color: rgb(107, 27, 107);
+    padding: 0;
+    margin-top: 0;
+    border-radius: 10px;
+
+}
+body{
+    background-color: pink;
+    height: 600px;
+}
+#gamerules{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    color: purple;
+}
+.col-md-5{
+    background-color:rgb(128,0,128,0.4);
+    height: 250px;
+    border-radius: 20px;
+    font-family: 'Noto Serif TC', serif;
+    color: pink;
+    font-size: 30px;
+}
+.col-md-5:hover{
+    background-color: purple;
+}
+.container{
+    margin-top: 20px;
+}
+.btn{
+    color: black;
+}
+}
