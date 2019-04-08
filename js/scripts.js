@@ -17,7 +17,8 @@ $().ready(function () {
             alert("You have rolled 1. Your turn ends!");
             $("#roll1").hide()
             $("#end1").hide()
-            
+            $("#roll2").show()
+            $("#end2").show()
         }
         //Output random number if it's not one
         else {
@@ -34,9 +35,15 @@ $().ready(function () {
         $(".turnOutput1").text(diceRoll1);
         $("#roll1").hide()
         $("#end1").hide()
+        $("#roll2").show()
+        $("#end2").show()
+         //Determines the winner and alerts the winning score of the player
+         if(totalScore1 >=100){
+            alert("Congratulations!!! You are the winner!")
+         }
     });
-     //button click event for player 2
-     $("#roll2").click(function () {
+    //button click event for player 2
+    $("#roll2").click(function () {
         //generate random number between 1 and 6
         event.preventDefault();
         var randomNum2 = Math.floor(Math.random() * 6) + 1;
@@ -45,6 +52,8 @@ $().ready(function () {
             alert("You have rolled 1. Your turn ends!");
             $("#roll2").hide()
             $("#end2").hide()
+            $("#roll1").show()
+            $("#end1").show()
         }
         //Output random number if it's not 1
         else {
@@ -61,5 +70,11 @@ $().ready(function () {
         $(".turnOutput2").text(diceRoll2);
         $("#roll2").hide()
         $("#end2").hide()
+        $("#roll1").show()
+        $("#end1").show()
+        //Determines the winner and alerts the winning score of the player
+        if(totalScore2 >=100){
+            alert("Congratulations!!! You are the winner!")
+        }
     });
 })
