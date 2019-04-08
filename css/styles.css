@@ -4,7 +4,7 @@ img {
 }
 
 #logo {
-    background-color:rgb(107, 27, 107);
+    background-color: rgb(107, 27, 107);
     border-radius: 10px;
 }
 
@@ -18,7 +18,7 @@ h1 {
 }
 
 #pigh1 {
-    background-color:rgb(107, 27, 107);
+    background-color: rgb(107, 27, 107);
     padding: 0;
     margin-top: 0;
     border-radius: 10px;
@@ -29,19 +29,21 @@ h1 {
     padding: 0;
     margin-top: 0;
     border-radius: 10px;
-
 }
-body{
+
+body {
     background-color: pink;
     height: 600px;
 }
-#gamerules{
+
+#gamerules {
     font-family: 'Noto Serif TC', serif;
     font-size: 20px;
     color: purple;
 }
-.col-md-5{
-    background-color:rgb(128,0,128,0.4);
+
+.col-md-5 {
+    background-color: rgb(128, 0, 128, 0.4);
     height: 330px;
     border-radius: 20px;
     font-family: 'Noto Serif TC', serif;
@@ -49,19 +51,22 @@ body{
     font-size: 30px;
 }
 
-.col-md-5:hover{
+.col-md-5:hover {
     background-color: purple;
 }
-.container{
+
+.container {
     margin-top: 20px;
 }
-.btn{
+
+.btn {
     color: black;
     font-size: 15px;
 }
+
 @media screen and (max-width:991px) {
-    #logotext{
-      margin-top: 20px !important;
-      width: 100% !important;
+    #logotext {
+        margin-top: 20px !important;
+        width: 100% !important;
     }
 }

@@ -37,10 +37,10 @@ $().ready(function () {
         $("#end1").hide()
         $("#roll2").show()
         $("#end2").show()
-         //Determines the winner and alerts the winning score of the player
-         if(totalScore1 >=100){
+        //Determines the winner and alerts the winning score of the player
+        if (totalScore1 >= 100) {
             alert("Congratulations!!! You are the winner!")
-         }
+        }
     });
     //button click event for player 2
     $("#roll2").click(function () {
@@ -73,7 +73,7 @@ $().ready(function () {
         $("#roll1").show()
         $("#end1").show()
         //Determines the winner and alerts the winning score of the player
-        if(totalScore2 >=100){
+        if (totalScore2 >= 100) {
             alert("Congratulations!!! You are the winner!")
         }
     });
