@@ -48,6 +48,7 @@ body{
     color: pink;
     font-size: 30px;
 }
+
 .col-md-5:hover{
     background-color: purple;
 }
