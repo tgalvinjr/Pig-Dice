@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Pig-Dice
-=======
 # PIG DICE
 ## Description
 A game played by 2 players who roll a six-sided die and accumulate points. The winner of the game is the player who is first to accumulate 100 points.
@@ -46,5 +43,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgments
 - Hat tip to anyone who unblocked me in class
 - Special thanks to Moringa TMs Peter, Edgar and Newton for the guidance
-
->>>>>>> gh-pages
